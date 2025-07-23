@@ -76,13 +76,11 @@
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1 </sup>German Research Center for Artificial Intelligence (DFKI) , <sup>2
-                </sup>RPTU </span>
-
+              <span class="author-block"><sup>1  </sup>German Research Center for Artificial Intelligence (DFKI) , <sup>2  </sup>RPTU </span>
+              
             </div>
 
-            <img src="static/images/iros_logo.png" alt="IROS logo" class="center"
-              style="width: 20%;padding-top: 50px; padding-bottom: 20px;">
+            <img src="static/images/iros_logo.png" alt="IROS logo" class="center"  style="width: 20%;padding-top: 50px; padding-bottom: 20px;"> 
 
 
             <div class="column has-text-centered">
@@ -120,7 +118,7 @@
                   </a>
                 </span>
 
-
+                
               </div>
             </div>
           </div>
@@ -136,7 +134,7 @@
       <div class="hero-body">
         <video poster="" id="tree" autoplay controls muted loop height="100%">
           <!-- Your video here -->
-  <!-- <source src="static/videos/banner_video.mp4" type="video/mp4">
+          <!-- <source src="static/videos/banner_video.mp4" type="video/mp4">
         </video>
         <h2 class="subtitle has-text-centered">
           Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat
@@ -155,16 +153,7 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Vision-based robotic object grasping is typically investigated in the context of isolated objects or
-              unstructured object sets in bin picking scenarios. However, there are several settings, such as
-              construction or warehouse automation, where a robot needs to interact with a structured object formation
-              such as a stack. In this context, we define the problem of selecting suitable objects for grasping along
-              with estimating an accurate 6DoF pose of these objects. To address this problem, we propose a camera-IMU
-              based approach that prioritizes unobstructed objects on the higher layers of stacks and introduce a
-              dataset for benchmarking and evaluation, along with a suitable evaluation metric that combines object
-              selection with pose accuracy. Experimental results show that although our method can perform quite well,
-              this is a challenging problem if a completely error-free solution is needed. Finally, we show results from
-              the deployment of our method for a brick-picking application in a construction scenario.
+              Vision-based robotic object grasping is typically investigated in the context of isolated objects or unstructured object sets in bin picking scenarios. However, there are several settings, such as construction or warehouse automation, where a robot needs to interact with a structured object formation such as a stack. In this context, we define the problem of selecting suitable objects for grasping along with estimating an accurate 6DoF pose of these objects. To address this problem, we propose a camera-IMU based approach that prioritizes unobstructed objects on the higher layers of stacks and introduce a dataset for benchmarking and evaluation, along with a suitable evaluation metric that combines object selection with pose accuracy. Experimental results show that although our method can perform quite well, this is a challenging problem if a completely error-free solution is needed. Finally, we show results from the deployment of our method for a brick-picking application in a construction scenario.
             </p>
           </div>
         </div>
@@ -175,6 +164,42 @@
 
 
   <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/carousel1.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              First image description.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/carousel2.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Second image description.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/carousel3.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Third image description.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/carousel4.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Fourth image description.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- End image carousel -->
 
 
@@ -202,20 +227,54 @@
   <!-- End youtube video -->
 
 
-  <!-- Paper abstract -->
-  <section class="section hero is-light">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Code, Dataset and more details coming soon... </h2>
-
+  <!-- Video carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Another Carousel</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-video1">
+            <video poster="" id="video1" autoplay controls muted loop height="100%">
+              <!-- Your video file here -->
+              <source src="static/videos/carousel1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video2">
+            <video poster="" id="video2" autoplay controls muted loop height="100%">
+              <!-- Your video file here -->
+              <source src="static/videos/carousel2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video3">
+            <video poster="" id="video3" autoplay controls muted loop height="100%">\
+              <!-- Your video file here -->
+              <source src="static/videos/carousel3.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End paper abstract -->
+  <!-- End video carousel -->
 
 
+
+
+
+
+  <!-- Paper poster -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Poster</h2>
+
+        <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
+        </iframe>
+
+      </div>
+    </div>
+  </section>
+  <!--End paper poster -->
 
 
   <!--BibTex citation -->
@@ -228,16 +287,6 @@
   <!--End BibTex citation -->
 
 
-  <section class="section" id="Acknowledgements">
-    <div class="container is-max-desktop content">
-      <h2 class="title">Acknowledgements</h2>
-      This work has been partially funded by the EU Horizon Europe Framework Program under grant agreement 101058236
-      (HumanTech) and by German Ministry for Economics and Climate Action (BMWK) under Grant Agreement 13IK010 (TWIN4TRUCKS). 
-      We thank our HumanTech partners for the collaboration: BAUBOT (Platform), SINTEF Manufacturing
-      (Control) and ACCIONA (testing site and material)
-    </div>
-  </section>
-
   <footer class="footer">
     <div class="container">
       <div class="columns is-centered">
@@ -246,9 +295,11 @@
 
             <p>
               This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
-                target="_blank">Academic Project Page Template</a>.
-              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
-                target="_blank">Creative
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the
+              footer. <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
                 Commons Attribution-ShareAlike 4.0 International License</a>.
             </p>
 
